@@ -1,0 +1,1 @@
+print("Bienvenido al super totito de Naruto.")
