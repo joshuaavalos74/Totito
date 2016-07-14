@@ -8,9 +8,10 @@ print (lista[1])
 print (lista[2])
 sig=0
 while==sig:
-	1=input("J1=1 ")
-	t1v=ord(t1)-65
+	t1=input("Ingrese la casilla que desea: ")
+	t1v=ord(t1)-ord("a")
 	t1f=t1v%3
 	t1c=t1v//3
-	lista[t1f[t1c]]=0
+	lista[t1f][t1c]=0
+
 
