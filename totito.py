@@ -1,3 +1,4 @@
+import funciones_tot
 print("Bienvenido al super totito de Naruto.")
 lista= [["a", "b", "c"],
 		["d", "e", "f"],
@@ -12,6 +13,12 @@ while==sig:
 	t1v=ord(t1)-ord("a")
 	t1f=t1v%3
 	t1c=t1v//3
-	lista[t1f][t1c]=0
+	res=lista[t1f][t1c]
+
+	t2=input("Ingrese la casilla que desea: ")
+	t2v=ord(t2)-ord("a")
+	t1f=t1v%3
+	t1c=t1v//3
+	res2=lista[t2f][t2c]
 
 

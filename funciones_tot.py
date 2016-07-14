@@ -20,10 +20,10 @@ def print_tot (lista):
 	resultado=""
 	for i in range (3):
 		for j in range (3):
-			celda= lista[i][j]
-			if celda==1:
+			casilla= lista[i][j]
+			if casilla==1:
 				resultado+= "X"
-			elif celda ==-1:
+			elif casilla ==-1:
 				resultado+="O"
 			else:
 			resultado+= chr(3*i+j+65)		
